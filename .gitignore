@@ -5,3 +5,13 @@
 !time_it.py
 !postprocess.py
 !.gitignore
+
+# Exclude everything in /utils
+/utils/*
+# Include the /utils directory
+!/utils/
+# Include all files and subdirectories inside /utils
+!/utils/**
+/utils/__pycache__/*
+/utils/aruco_utils/__pycache__/*
+
